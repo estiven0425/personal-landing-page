@@ -54,7 +54,7 @@ export default function Footer() {
             <a
               className="footerInfoListItemLink"
               download="cv-estiven0425.pdf"
-              href="/cv.pdf"
+              href="/Currículum.pdf"
               title="Descargar currículum"
             >
               Currículum
