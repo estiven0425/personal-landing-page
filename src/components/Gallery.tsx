@@ -4,6 +4,8 @@ import talcosdeYarumal from "../assets/img/talcos-yarumal.png";
 import crudTAYA from "../assets/img/crud-taya.png";
 import gitHub from "../assets/img/github.png";
 import personalLandingPage from "../assets/img/personal-landing-page.png";
+import crudCsharp from "../assets/img/crud_csharp.jpg";
+import parkingExpress from "../assets/img/parking_express.jpg";
 
 export default function Gallery() {
   const images = [
@@ -49,6 +51,20 @@ export default function Gallery() {
       src: personalLandingPage,
       url: "https://github.com/estiven0425/personal-landing-page",
     },
+    {
+      caption: "Proyecto de aprendizaje de .NET y WPF",
+      description:
+          "Aplicación de escritorio para librería donde aprendo y me familiarizo con .NET y C#",
+      src: crudCsharp,
+      url: "https://github.com/estiven0425/crud-csharp",
+    },
+    {
+      caption: "Proyecto de profundización de .NET y WPF",
+      description:
+          "Aplicación de escritorio para parqueadero donde profundizo .NET y C# aplicando buenas prácticas y correctas metodologías de código",
+      src: parkingExpress,
+      url: "https://github.com/estiven0425/ParkingExpress",
+    }
   ];
 
   return (

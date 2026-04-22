@@ -1,3 +1,4 @@
+import cSharp from "../assets/img/Csharp.svg";
 import css from "../assets/img/css.svg";
 import expressJS from "../assets/img/express.svg";
 import git from "../assets/img/git.svg";
@@ -5,6 +6,7 @@ import html from "../assets/img/html.svg";
 import js from "../assets/img/js.svg";
 import nodeJS from "../assets/img/nodejs.svg";
 import mySQL from "../assets/img/mysql.svg";
+import oracle from "../assets/img/oracle.svg";
 import php from "../assets/img/php.svg";
 import reactJS from "../assets/img/react.svg";
 import sass from "../assets/img/sass.svg";
@@ -19,64 +21,60 @@ export default function Service() {
       <article className="mainServiceContainer">
         <div className="mainServiceContainerItem">
           <i className="bi bi-exclamation-circle-fill mainServiceContainerItemIcon"></i>
-          <h3 className="mainServiceContainerItemTitle">Analítica</h3>
+          <h3 className="mainServiceContainerItemTitle">Capacidad analítica</h3>
           <p className="mainServiceContainerItemDescription">
-            Analizar un problema, una causa, una necesidad, el porque y el como
-            para poder desarrollar una solución
+            Especialista en el desglose de problemas complejos y levantamiento de requerimientos.
+            Analizo la causa raíz y el impacto de negocio para diseñar soluciones técnicas precisas y escalables
           </p>
         </div>
         <div className="mainServiceContainerItem">
           <i className="bi bi-file-earmark-fill mainServiceContainerItemIcon"></i>
-          <h3 className="mainServiceContainerItemTitle">Documentación</h3>
+          <h3 className="mainServiceContainerItemTitle">Requisitos y documentación</h3>
           <p className="mainServiceContainerItemDescription">
-            Crear diagramas, casos de uso, historias de usuario, fichas
-            técnicas, manuales de usuario y técnicos para los proyectos a
-            desarrollar
+            Gestión del ciclo documental de proyectos (SDLC) mediante la creación de diagramas de arquitectura,
+            casos de uso, historias de usuario y manuales técnicos detallados, garantizando la trazabilidad del software.
           </p>
         </div>
         <div className="mainServiceContainerItem">
           <i className="bi bi-bug-fill mainServiceContainerItemIcon"></i>
           <h3 className="mainServiceContainerItemTitle">
-            Solución de problemas
+            Resolución de problemas
           </h3>
           <p className="mainServiceContainerItemDescription">
-            Establecer una solución para el problema identificado y documentado
-            y desarrollar un software que satisfaga esas necesidades
+            Capacidad de convertir retos técnicos en productos terminados.
+            Desde la identificación del error hasta el despliegue de la solución, enfocado siempre en la satisfacción del cliente y la estabilidad del sistema
           </p>
         </div>
         <div className="mainServiceContainerItem">
           <i className="bi bi-magic mainServiceContainerItemIcon"></i>
-          <h3 className="mainServiceContainerItemTitle">Diseño web</h3>
+          <h3 className="mainServiceContainerItemTitle">UI/UX Design</h3>
           <p className="mainServiceContainerItemDescription">
-            Diseñar una interfaz de usuario para el software desarrollado la
-            cual permita a los usuarios interactuar con el software, entenderlo
-            y usarlo correctamente
+            Creación de interfaces de usuario intuitivas y funcionales.
+            Mi enfoque une la estética con la usabilidad, permitiendo que el usuario interactúe con el sistema de forma fluida y eficiente.
           </p>
         </div>
         <div className="mainServiceContainerItem">
           <i className="bi bi-boxes mainServiceContainerItemIcon"></i>
-          <h3 className="mainServiceContainerItemTitle">Arquitectura web</h3>
+          <h3 className="mainServiceContainerItemTitle">Arquitectura y Clean Code</h3>
           <p className="mainServiceContainerItemDescription">
-            Diseñar toda la infraestructura, organización y estructura del
-            código fuente para poder desarrollar un software que cumpla con las
-            necesidades del cliente y con buenas prácticas
+            Diseño de infraestructuras de software bajo patrones sólidos (MVVM, MVC).
+            Estructuro código fuente modular y mantenible, priorizando la separación de responsabilidades y las mejores prácticas de la industria.
           </p>
         </div>
         <div className="mainServiceContainerItem">
           <i className="bi bi-list-columns-reverse mainServiceContainerItemIcon"></i>
-          <h3 className="mainServiceContainerItemTitle">Semántica</h3>
+          <h3 className="mainServiceContainerItemTitle">Semántica y SEO Técnico</h3>
           <p className="mainServiceContainerItemDescription">
-            Usar las etiquetas HTML y sintaxis de programación correctas y más
-            adecuadas para poder obtener una buena accesibilidad, rendimiento y
-            SEO
+            Implementación de estándares modernos de HTML5 y sintaxis limpia,
+            asegurando accesibilidad universal, alto rendimiento en carga y una indexación óptima para motores de búsqueda.
           </p>
         </div>
         <div className="mainServiceContainerItem">
           <i className="bi bi-globe-americas-fill mainServiceContainerItemIcon"></i>
-          <h3 className="mainServiceContainerItemTitle">Buenas prácticas</h3>
+          <h3 className="mainServiceContainerItemTitle">Buenas Prácticas y Escalabilidad</h3>
           <p className="mainServiceContainerItemDescription">
-            Aplicar normas para tener unas correctas convenciones de código y
-            que sea escalable, y entendible por otros desarrolladores
+            Aplicación rigurosa de convenciones de código (Clean Code),
+            facilitando el trabajo colaborativo en equipo y asegurando que el software pueda crecer sin generar deuda técnica.
           </p>
         </div>
       </article>
@@ -159,7 +157,25 @@ export default function Service() {
             className="mainServiceContainerItemImg"
             decoding="async"
             src={mySQL}
-            title="MySQL (Intermedio)"
+            title="MySQL (Avanzado)"
+          />
+        </div>
+        <div className="mainServiceContainerItem">
+          <img
+              alt="C#"
+              className="mainServiceContainerItemImg"
+              decoding="async"
+              src={cSharp}
+              title="C# (Intermedio)"
+          />
+        </div>
+        <div className="mainServiceContainerItem">
+          <img
+              alt="Oracle"
+              className="mainServiceContainerItemImg"
+              decoding="async"
+              src={oracle}
+              title="Oracle (Intermedio)"
           />
         </div>
         <div className="mainServiceContainerItem">

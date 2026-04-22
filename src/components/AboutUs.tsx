@@ -8,55 +8,32 @@ export default function AboutUs() {
           <span>Acerca</span> de mi
         </h2>
         <p className="mainAboutUsArticleText">
-          Mi nombre es Estiven Montoya, tengo 20 años y soy de la ciudad de
-          Medellín, Colombia. Me crié y crecí en esta ciudad, realizé mis
-          estudios escolares y universitarios aquí, esta ciudad me ha visto
-          crecer personal y profesionalmente. <br />
-          <br />
-          Soy un desarrollador de software fullstack enfocado en crear
-          aplicaciones web, me encanta aprender cosas nuevas, afrontar desafios,
-          demostrar mis capacidades y que las personas a las que ayudo queden
-          satisfechas con mi trabajo. <br />
-          <br />
-          Desde siempre me ha interesado la tecnología y el desarrollo de
-          software es algo que descubrí a los 16 años, y desde entonces he
-          estado aprendiendo y creando cosas. Empecé con HTML, CSS y JavaScript
-          y fuí perfeccionandome en esos lenguajes, luego al llegar a la
-          universidad tuve la oportunidad de aprender más sobre el desarrollo de
-          software, análisis y bases de datos, pudiendo agregar a mis
-          conocimientos lenguajes nuevos como PHP y MySQL, además del uso de
-          herramientas como Git y GitHub. <br />
-          <br />
-          En esa epoca de exploración encontraría lo que sería mi lugar feliz,
-          React, todo el ecosistema de NodeJS me cautivo y decidí enfocarme en
-          esto, aprendí a usar React, Express, MySQL, Canvas, Bootstrap y a ser
-          capaz de analizar, diseñar y crear un software completo para
-          solucionar problemas. Además de haber realizado múltiples cursos en
-          lenguajes como HTML, CSS, SASS, JS, PHP, MySQL y React en la página
-          web de{" "}
-          <a
-            className="mainAboutUsArticleTextLink"
-            href="https://www.w3profile.com/estiven0425/"
-            title="Enlace a W3School"
-          >
-            W3School
-          </a>
-          {". "}
-          <br />
-          <br />
-          Presenté mi proyecto universitario desplegado a nivel LAN y fué
-          considerado de los mejores de la carrera universitaria, en el pude
-          poner en práctica mis conocimientos en HTML, CSS, JavaScript, React,
-          Express y MySQL. <br /> <br />
-          Luego trabajé con una empresa desarrollando todo un software complejo
-          para automatizar y solucionar múltiples necesidades que presentaban,
-          eso y mis ganas de aprender me llevaron a aprender y dominar nuevas
-          tecnologías, además de las que ya conocía, React en vite, Express con
-          Express-generator, SASS, CSS modular, buena semántica, buena
-          arquitectura y figma me permitieron ser más profesional, además de eso
-          desarrollé otro software complementario para realizar funciones CRUD y
-          algunas otras del software principal pero sin automatizaciones, en ese
-          aprendí TypeScript (TSX para React y TS para Express).
+          Soy Estiven Montoya, desarrollador Fullstack ubicado en Medellín, Colombia. <br/>
+          <br/>
+          Mi trayectoria comenzó a los 16 años, curiosidad que rápidamente se convirtió en mi profesión. <br/>
+          A lo largo de mi formación como Tecnólogo en el SENA y mi experiencia en el sector corporativo, he consolidado un perfil técnico sólido enfocado en el ecosistema <i>JavaScript/TypeScript</i> y el desarrollo de aplicaciones robustas <i>C#</i>. <br/>
+          <br/>
+          A mis 20 años, he consolidado un perfil híbrido que combina la agilidad del desarrollo web moderno con la robustez del software empresarial. <br/>
+          Mi mayor fortaleza es la <b>adaptabilidad técnica</b>, descubrí mi gran afinidad y talento por el ecosistema <i>.NET (C#)</i>, <br/>
+          donde he logrado desarrollar arquitecturas sólidas bajo patrones como <i>MVVM</i>, llevando mi lógica de programación a un nivel de madurez superior. <br/>
+          <br/>
+          <b>Mi enfoque técnico: </b>
+          Más allá de escribir código, me apasiona la arquitectura de software. <br/>
+          He liderado el ciclo completo de vida del desarrollo <i>(SDLC)</i>, desde el análisis de requerimientos y el diseño en Figma, hasta la implementación de APIs escalables y despliegues en producción. <br/>
+          <br/>
+          <b>Mi enfoque integra: </b>
+          <ul>
+            <li><b>Frontend:</b> Desarrollo de interfaces dinámicas y optimizadas con <i>React (Vite)</i>, <i>TypeScript</i> y <i>SCSS</i>, priorizando la semántica y la experiencia de usuario.</li>
+            <li><b>Backend:</b> Diseño de lógica de servidor eficiente con <i>Node.js/Express</i> y <i>.NET</i>, incluida la gestión de bases de datos relacionales <i>(MySQL/Oracle)</i>.</li>
+            <li><b>Calidad:</b> Implementación de buenas prácticas de arquitectura, código modular, control de versiones con Git y metodologías ágiles <i>(Scrum)</i>.</li>
+          </ul>
+          <b>Logros que definen mi perfil:</b>
+          <ul>
+            <li><b>Desarrollo Autónomo:</b> Diseñé y desplegué desde cero sistemas de gestión e inventarios para empresas del sector industrial, automatizando procesos que mejoraron la eficiencia operativa y el análisis de datos.</li>
+            <li><b>Excelencia Académica:</b> Mi proyecto universitario fue reconocido como uno de los referentes de la facultad, destacando por su arquitectura y funcionalidad en entornos LAN.</li>
+            <li><b>Aprendizaje Continuo:</b> Mi capacidad de adaptación me ha permitido dominar tecnologías corporativas complejas (PL/SQL, Oracle APEX) mientras mantengo mi enfoque en el desarrollo web moderno.</li>
+          </ul>
+          Entiendo la tecnología como un medio para generar un impacto real. Estoy en búsqueda de retos donde pueda aportar mi capacidad técnica y estratégica para llevar equipos y proyectos al siguiente nivel.
         </p>
       </article>
       <figure className="mainAboutUsFigure">
