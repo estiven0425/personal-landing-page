@@ -6,6 +6,7 @@ import html from "../assets/img/html.svg";
 import js from "../assets/img/js.svg";
 import nodeJS from "../assets/img/nodejs.svg";
 import mySQL from "../assets/img/mysql.svg";
+import netFramework from "../assets/img/net_framework.svg";
 import oracle from "../assets/img/oracle.svg";
 import php from "../assets/img/php.svg";
 import reactJS from "../assets/img/react.svg";
@@ -167,6 +168,15 @@ export default function Service() {
               decoding="async"
               src={cSharp}
               title="C# (Intermedio)"
+          />
+        </div>
+        <div className="mainServiceContainerItem">
+          <img
+              alt=".NET"
+              className="mainServiceContainerItemImg"
+              decoding="async"
+              src={netFramework}
+              title=".NET (Intermedio)"
           />
         </div>
         <div className="mainServiceContainerItem">
