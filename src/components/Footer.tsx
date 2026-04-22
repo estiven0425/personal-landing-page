@@ -69,7 +69,7 @@ export default function Footer() {
           <li className="footerNavigationListItem">
             <a
               className="footerNavigationListItemLink"
-              href={"#header"}
+              href={"#"}
               title="Navegar a inicio"
             >
               Inicio
